@@ -1,0 +1,19 @@
+springdoc:
+  swagger-ui:
+    enabled: true
+
+server:
+  port: 3002
+spring:
+  threads:
+    virtual:
+      enabled: true
+  application:
+    name: crypto-trading-bot-simulator
+
+
+#Default configuration
+logging:
+  config: classpath:log4j2.yaml
+  level:
+    org.springframework.data.convert.CustomConversions: ERROR
