@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 public class FeedbackService {
 
     public void add() {
-        log.info("Adding...");
+        log.info("Adding..");
     }
 
 }
