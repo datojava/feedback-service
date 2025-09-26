@@ -14,7 +14,7 @@ public class NoSecurityConfig {
 
     @Bean
     public SecurityFilterChain defaultSecurityFilterChain(HttpSecurity http) throws Exception {
-        log.info("Security filter chain...");
+        log.info("Security filter chain");
         http
                 .securityMatcher("/**") // Match everything else
                 .authorizeHttpRequests(auth -> auth.anyRequest().permitAll())
